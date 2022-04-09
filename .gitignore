@@ -1,0 +1,6 @@
+# Generated data
+data
+letsencrypt
+
+# Environment
+.env
