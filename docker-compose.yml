@@ -22,3 +22,4 @@ volumes:
 networks:
   https_network:
     name: ${HTTPS_NETWORK}
+    external: true
