@@ -1,2 +1,6 @@
+# Generated files
+data
+letsencrypt
+
 # Environment
 .env
