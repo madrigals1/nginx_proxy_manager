@@ -22,3 +22,7 @@ networks:
   https_network:
     name: ${HTTPS_NETWORK}
     external: true
+    ipam:
+      config:
+        - subnet: ${HTTPS_SUBNET}
+          gateway: ${HTTPS_GATEWAY}
